@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './SectionImage.module.css'
 import ViewAll from '../ViewAll/ViewAll'
 
-function SectionImage({ tag, title, description, linkTo, img }) {
+function SectionImage({ tag, title, description, linkTo, message, img }) {
   return (
     <div className={styles.section}>
       <div className={styles.sectionContent}>
@@ -11,7 +11,7 @@ function SectionImage({ tag, title, description, linkTo, img }) {
           <h3>{title}</h3>
           <p className={styles.contentDescription}>{description}</p>
           <ViewAll 
-          message="Learn More" 
+          message={message} 
           linkTo={linkTo}/>
         </div>
       </div>

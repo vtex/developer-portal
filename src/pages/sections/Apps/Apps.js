@@ -10,6 +10,7 @@ const Apps = () => {
         title="Easily build and sell solutions through our exclusive App Store."
         description="Easily build and sell solutions through our exclusive App Store."
         linkTo="/apps/overview"
+        message="Learn More"
         img={AppApi}
       />
     </section>
