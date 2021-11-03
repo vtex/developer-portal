@@ -1,6 +1,6 @@
 import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import styles from "./Changelog.module.css";
+import styles from "./LatestUpdates.module.css";
 import tinytime from 'tinytime'
 
 const LatestUpdates = () => {
