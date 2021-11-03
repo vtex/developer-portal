@@ -12,7 +12,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'vtex', // Usually your GitHub org/user name.
-  projectName: 'sfj-documentation', // Usually your repo name.
+  projectName: 'developer-portal', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'],
   stylesheets: [
     "https://fonts.googleapis.com/icon?family=Material+Icons",
@@ -118,7 +118,7 @@ module.exports = {
     },
     algolia: {
       apiKey: 'b569ca818413cccb8e41edbcb1dd5161',
-      indexName: 'SFJ',
+      indexName: 'devportal',
       appId: 'OAXP53H7GY',
     },
     footer: {
