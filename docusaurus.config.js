@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'VTEX IO',
   tagline: 'Documentation Portal',
-  url: 'https://developer-portal.vtex.com',
+  url: 'https://vtexio.netlify.app',
   baseUrl: '/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
