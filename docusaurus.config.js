@@ -21,6 +21,16 @@ module.exports = {
     events: require("./static/data/releases"),
   },
   themeConfig: {
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)'
+        }
+      }
+    },
     hideableSidebar: true,
     zoomSelector: '.markdown :not(em) > img',
     colorMode: {
@@ -200,6 +210,6 @@ module.exports = {
     ],
   ],
   plugins: [
-    'plugin-image-zoom'
+    require.resolve('docusaurus-plugin-image-zoom')
   ],
 };

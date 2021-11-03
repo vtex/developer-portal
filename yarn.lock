@@ -4571,6 +4571,13 @@
   dependencies:
     "buffer-indexof" "^1.0.0"
 
+"docusaurus-plugin-image-zoom@^0.0.2":
+  "integrity" "sha512-N/SBLbCDxNd/XHoToVpgxrSYcH/PJOTNbTOuJYOwd/QsjlYrH4PSFR4w6uG5ITtXX7FOiikEQ05SUaNndX6wiA=="
+  "resolved" "https://registry.npmjs.org/docusaurus-plugin-image-zoom/-/docusaurus-plugin-image-zoom-0.0.2.tgz"
+  "version" "0.0.2"
+  dependencies:
+    "medium-zoom" "^1.0.6"
+
 "dom-converter@^0.2.0":
   "integrity" "sha512-gd3ypIPfOMr9h5jIKq8E3sHOTCjeirnl0WK5ZdS1AW0Odt0b1PaWaHdJ4Qk4klv+YB9aJBS7mESXjFoDQPu6DA=="
   "resolved" "https://registry.npmjs.org/dom-converter/-/dom-converter-0.2.0.tgz"
@@ -7165,7 +7172,7 @@
   "resolved" "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz"
   "version" "0.3.0"
 
-"medium-zoom@^1.0.4":
+"medium-zoom@^1.0.6":
   "integrity" "sha512-UdiUWfvz9fZMg1pzf4dcuqA0W079o0mpqbTnOz5ip4VGYX96QjmbM+OgOU/0uOzAytxC0Ny4z+VcYQnhdifimg=="
   "resolved" "https://registry.npmjs.org/medium-zoom/-/medium-zoom-1.0.6.tgz"
   "version" "1.0.6"
@@ -8284,12 +8291,6 @@
     "base64-js" "^1.5.1"
     "xmlbuilder" "^9.0.7"
     "xmldom" "^0.6.0"
-
-"plugin-image-zoom@github:ataft/plugin-image-zoom":
-  "resolved" "git+ssh://git@github.com/ataft/plugin-image-zoom.git#a20c49db137ae2f9aa4128aafced3b74590300aa"
-  "version" "0.0.0"
-  dependencies:
-    "medium-zoom" "^1.0.4"
 
 "pointer-events-polyfill@^0.4.4-pre":
   "integrity" "sha512-t7iitVY5jW9mGOFZEHphJOzB8eMhoYaE6I5HqsUX14rjsPa9F6OlMOCj3EpqDzNb/8XtMk2BxMpOyePPyuefHw=="
