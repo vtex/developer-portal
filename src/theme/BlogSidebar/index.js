@@ -21,17 +21,18 @@ export default function BlogSidebar({ sidebar, product }) {
 
   const tags = [
     {
-      title: "All ",
-      url: "/releases",
-    },{
-      title: "FastStore ",
-      url: "/releases/tags/faststore",
+      title: 'All ',
+      url: '/releases',
     },
     {
-      title: "WebOps",
-      url: "/releases/tags/webops",
+      title: 'Faststore ',
+      url: '/releases/tags/faststore',
     },
-  ];
+    {
+      title: 'Webops',
+      url: '/releases/tags/webops',
+    },
+  ]
 
   return (
     <nav
@@ -77,12 +78,17 @@ export default function BlogSidebar({ sidebar, product }) {
                 <Link
                   isNavLink
                   to={item.permalink}
+                  className={styles.docTag}
+                  activeClassName={styles.sidebarItemLinkActive}
+                >{item.permalink.split('/')[5]}</Link>
+                <Link
+                  isNavLink
+                  to={item.permalink}
                   className={styles.sidebarItemLink}
                   activeClassName={styles.sidebarItemLinkActive}
                 >
-                  {item.title}
+                {item.title}
                 </Link>
-                {item.permalink.split('/')[5]}
               </li>
             )
           })}
@@ -93,21 +99,15 @@ export default function BlogSidebar({ sidebar, product }) {
         <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
           Filter by tag
         </div>
-        <ul>
-          {
-            <span className="flex flex-wrap mb-5">
-              {tags.map(({title, url}) => (
-                <Link
-                  key={url}
-                  
-                  to={url}
-                >
-                  {title}
-                </Link>
-              ))}
-            </span>
-          }
-        </ul>
+        {
+          <span>
+            {tags.map(({ title, url }) => (
+              <Link key={url} to={url} className={styles.tagLink}>
+                {title}
+              </Link>
+            ))}
+          </span>
+        }
       </div>
     </nav>
   )

@@ -32,7 +32,7 @@
          tag: 'blog_posts_list',
        }}
        sidebar={sidebar}>
-         <h1>{title}</h1>
+         <h1 className={'col'}>{title}</h1>
        {items.map(({content: BlogPostContent}) => (
          <BlogPostItem
            key={BlogPostContent.metadata.permalink}

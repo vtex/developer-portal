@@ -23,7 +23,7 @@ function NotFound() {
           tag="404 - page not found"
           title="The content you are looking for was not found or does not exist anymore."
           description="Use the menu above to find what you need or contact us at the link below:"
-          linkTo="LINK"
+          linkTo="https://docs.google.com/forms/d/e/1FAIpQLSfmnotPvPjw-SjiE7lt2Nt3RQgNUe10ixXZmuO2v9enOJReoQ/viewform?entry.1972292648=developers.vtex.com&entry.1799503232="
           message="Send a feedback"
           img={errorImage}
         />

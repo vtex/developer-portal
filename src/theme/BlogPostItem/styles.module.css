@@ -7,10 +7,17 @@
 
 .blogPostTitle {
   font-size: 3rem;
+  line-height:0px;
+}
+
+.blogPostTitle a{
+  font-size: 1.25rem;
 }
 
 .blogPostData {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  color:#5B6E84;
+  padding-top:0.5rem;
 }
 
 .blogPostDetailsFull {

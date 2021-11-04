@@ -38,6 +38,41 @@
   color: #f71963;
 }
 
+.tagLink {
+  margin: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.125rem 0.75rem;
+  border-radius: 99px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  background-color:rgb(255, 167, 197,0.25);
+  color:#FF1D68
+}
+
+.tagLink:hover{
+  opacity:0.5;
+  text-decoration:none
+}
+
+.docTag{
+  margin: 0.5rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 99px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  background-color:#F8F7FC;
+  color:#142032;
+  text-transform: capitalize;
+}
+
+.docTag:hover{
+  color:#142032;
+  text-decoration: none;
+  opacity:0.8
+}
+
 @media only screen and (max-width: 996px) {
   .sidebar {
     display: none;
